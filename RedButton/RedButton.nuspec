@@ -14,4 +14,9 @@
     <copyright>Copyright 2020</copyright>
     <tags>chunlin uwp</tags>
   </metadata>
+  <files>
+    <!-- uap -->
+    <file src="bin\Release\RedButton\SimpleButton.xbf" target="lib\uap10.0\RedButton" />
+    <file src="bin\Release\RedButton\RedButton.xr.xml" target="lib\uap10.0\RedButton" />
+  </files>
 </package>
