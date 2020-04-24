@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ChunLin.RedButton</id>
+    <version>1.0.0</version>
+    <title>RedButton</title>
+    <authors>Goh Chun Lin</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://goh-chunlin.github.io/</projectUrl>
+    <iconUrl>https://goh-chunlin.github.io/images/chunlin.jpg</iconUrl>
+    <description>This is a demo project to show how we can package a UWP class library.</description>
+    <releaseNotes>Init.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>chunlin uwp</tags>
+  </metadata>
+</package>

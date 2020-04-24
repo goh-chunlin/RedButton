@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedButton", "RedButton\RedButton.csproj", "{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|ARM.Build.0 = Debug|ARM
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|x64.ActiveCfg = Debug|x64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|x64.Build.0 = Debug|x64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|x86.ActiveCfg = Debug|x86
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Debug|x86.Build.0 = Debug|x86
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|ARM.ActiveCfg = Release|ARM
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|ARM.Build.0 = Release|ARM
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|ARM64.Build.0 = Release|ARM64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|x64.ActiveCfg = Release|x64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|x64.Build.0 = Release|x64
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|x86.ActiveCfg = Release|x86
+		{3DEE6A08-AA52-4811-8D20-C23F27B07E9D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05EEEC52-9F40-4A47-ABB7-70672C4A0ADA}
+	EndGlobalSection
+EndGlobal
