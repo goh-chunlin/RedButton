@@ -16,8 +16,6 @@
   </metadata>
   <files>
     <!-- uap -->
-    <!--<file src="out\lib\uwp\Plugin.Badge.UWP\Plugin.Badge.*" target="lib\uap10.0" />-->
-
     <file src="bin\Release\RedButton.dll" target="lib\uap10.0" />
     <file src="bin\Release\RedButton.pri" target="lib\uap10.0" />
     <file src="bin\Release\RedButton\SimpleButton.xaml" target="lib\uap10.0\RedButton" />
