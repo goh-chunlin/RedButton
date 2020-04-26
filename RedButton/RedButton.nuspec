@@ -21,9 +21,9 @@
     <!-- uap -->
     <file src="bin\Release\RedButton.dll" target="lib\uap10.0" />
     <file src="bin\Release\RedButton.pri" target="lib\uap10.0" />
-    <file src="bin\Release\RedButton\SimpleButton.xaml" target="lib\uap10.0\RedButton" />
+    <file src="bin\Release\RedButton\Controls\PropertyExplorer.xaml" target="lib\uap10.0\RedButton\Controls" />
     
-    <file src="bin\Release\RedButton\SimpleButton.xbf" target="lib\uap10.0\RedButton" />
+    <file src="bin\Release\RedButton\Controls\PropertyExplorer.xbf" target="lib\uap10.0\RedButton\Controls" />
     <file src="bin\Release\RedButton\RedButton.xr.xml" target="lib\uap10.0\RedButton" />
   </files>
 </package>

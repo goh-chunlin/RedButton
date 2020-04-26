@@ -20,9 +20,9 @@ using Windows.UI.Xaml.Navigation;
 
 // The User Control item template is documented at https://go.microsoft.com/fwlink/?LinkId=234236
 
-namespace RedButton
+namespace RedButton.Controls
 {
-    public sealed partial class SimpleButton : UserControl
+    public sealed partial class PropertyExplorer : UserControl
     {
         public PropertyCollection Properties
         {
@@ -33,10 +33,10 @@ namespace RedButton
         public static readonly DependencyProperty PropertiesProperty =
             DependencyProperty.Register("Properties",
                 typeof(PropertyCollection),
-                typeof(SimpleButton),
+                typeof(PropertyExplorer),
                 new PropertyMetadata(null, (d, e) =>
                 {
-                    var ctrl = d as SimpleButton;
+                    var ctrl = d as PropertyExplorer;
                     if (e.NewValue is null) return;
 
                     var data = e.NewValue as PropertyCollection;
@@ -49,7 +49,7 @@ namespace RedButton
                     ctrl.propertyGrid.ItemsSource = list.OrderBy(p => p.PropertyName);
                 }));
 
-        public SimpleButton()
+        public PropertyExplorer()
         {
             this.InitializeComponent();
         }
@@ -109,6 +109,4 @@ namespace RedButton
             ValuesChanged?.Invoke(this, new PropertyWindowValuesChangedArgs());
         }
     }
-
-
 }

@@ -1,8 +1,8 @@
 ﻿<UserControl
-    x:Class="RedButton.SimpleButton"
+    x:Class="RedButton.Controls.PropertyExplorer"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:RedButton"
+    xmlns:local="using:RedButton.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:telerikCore="using:Telerik.Data.Core"
