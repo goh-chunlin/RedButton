@@ -13,6 +13,9 @@
     <releaseNotes>Init.</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>chunlin uwp</tags>
+    <dependencies>
+      <dependency id="Telerik.UI.for.UniversalWindowsPlatform" version="1.0.8" />
+    </dependencies>
   </metadata>
   <files>
     <!-- uap -->
