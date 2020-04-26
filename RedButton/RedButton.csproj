@@ -122,10 +122,13 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Helpers\PropertyWindowValuesChangedArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleButton.xaml.cs">
       <DependentUpon>SimpleButton.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TemplateSelectors\PropertyDataTemplateSelector.cs" />
+    <Compile Include="ViewModels\PropertyObjectViewModel.cs" />
     <EmbeddedResource Include="Properties\RedButton.rd.xml" />
   </ItemGroup>
   <ItemGroup>
